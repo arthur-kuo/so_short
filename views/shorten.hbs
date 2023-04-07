@@ -1,0 +1,21 @@
+<!--回傳短網址-->
+
+<div>
+    <form action="/shorten" method="POST"></form>
+        <h1>Success! Please use this link:</h1>
+        <h2 id="myText" class="text-primary" style="user-select: all" >http://localhost:{{port}}/redirect/{{endingOfTheShortenURL}}</h2>
+        <div class="form-control form-control-lg border-0">
+            <button id="btn" onclick="copyContent()" class="btn btn-clipboard btn-outline-primary rounded-0 w-25 p-3 fs-4 fw-bold">Copy</button> <!--產生短網址的按鈕-->
+        </div>
+        <script>
+            let text = document.getElementById('myText').innerHTML;
+            const copyContent = async () => {
+                try {
+                await navigator.clipboard.writeText(text);
+                console.log('Content copied to clipboard');
+                } catch (err) {
+                console.error('Failed to copy: ', err);
+                }
+            }
+        </script>
+</div>
