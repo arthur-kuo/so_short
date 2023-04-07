@@ -1,7 +1,7 @@
 # so_short
 A website to shorten your URL
 
-![image](/public/images/demo.png)
+![image](/images/demo.jpg)
 
 # Features - 功能
 
