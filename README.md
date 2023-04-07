@@ -28,6 +28,13 @@ npm install
 npm i nodemon
 ```
 
+3. Connect to MongoDB
+
+create a file called '.env', 
+add this and save:
+
+MONGODB_URI=mongodb+srv://<Your MongoDB Account>:<Your MongoDB Password>@cluster0.xxxx.xxxx.net/<Your MongoDB Table>?retryWrites=true&w=majority
+
 4. Start the server
 
 ```
