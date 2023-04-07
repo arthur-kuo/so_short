@@ -3,7 +3,7 @@ A website to shorten your URL
 
 ![image](/images/demo.jpg)
 
-# Features - 功能
+# Features
 
 1. Input your URL
 2. Click 'Shorten'  
@@ -12,7 +12,7 @@ A website to shorten your URL
 5. A same shorten URL for a same original URL 
 
 
-# Installation and execution - 安裝與執行步驟
+# Installation and execution
 
 1. Clone the project
 
@@ -40,7 +40,7 @@ npm run dev
 Express is listening on localhost:3000
 ```
 
-# Set Up - 環境建置
+# Set Up
 
 - Runtime: node @ 18.14.0
 - Framework: express @ 4.18.2
