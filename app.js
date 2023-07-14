@@ -13,7 +13,7 @@ let endingOfTheShortenURL = '' //用於暫存'產生的5碼亂碼'
 
 
 ////設定埠口
-const port = 3000
+const port = process.env.PORT||3000
 
 
 ////連接資料庫
