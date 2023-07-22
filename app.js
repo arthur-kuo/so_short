@@ -74,8 +74,11 @@ app.post('/shorten', (req, res) => {
     res.render('shorten', {port, endingOfTheShortenURL})
 }) //建立shorten頁面(提供短網址的頁面) 
 
+app.get('/no_such_URL', (req,res) => {
+    res.render('no_such_URL')
+})
 
-app.get('/r/:endingOfTheShortenURL', (req,res) => {
+app.get('/:endingOfTheShortenURL', (req,res) => {
     URLs.find({endingOfTheShortenURL: req.params.endingOfTheShortenURL}, (error, result) => {
         if(error){
             console.log(error)
@@ -89,10 +92,6 @@ app.get('/r/:endingOfTheShortenURL', (req,res) => {
     })
     .catch(error => console.log(error))
 }) //使用者輸入短網址,可導向原始網站
-
-app.get('/no_such_URL', (req,res) => {
-    res.render('no_such_URL')
-})
 
 
 ////監聽port
