@@ -1,5 +1,5 @@
-# so_short
-A website to shorten your URL
+# The URL Mage
+A mage to shorten your URL
 
 ![image](/images/demo.jpg)
 
@@ -10,6 +10,7 @@ A website to shorten your URL
 3. Then you get a shorten URL to use
 4. The shorten URL leads you to the original website
 5. A same shorten URL for a same original URL 
+6. If the shorten URL doesn't exist, he may ask you to generate a new one
 
 
 # Installation and execution
