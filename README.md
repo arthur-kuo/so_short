@@ -1,6 +1,6 @@
 # The URL Mage
-A mage to shorten your URL
-https://the-url-mage.up.railway.app/
+<H2>A mage to shorten your URL<H2>
+<H2>https://the-url-mage.up.railway.app/<H2>
 
 ![image](/images/demo.jpg)
 
