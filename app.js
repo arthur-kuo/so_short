@@ -75,7 +75,7 @@ app.post('/shorten', (req, res) => {
 }) //建立shorten頁面(提供短網址的頁面) 
 
 
-app.get('/redirect/:endingOfTheShortenURL', (req,res) => {
+app.get('/r/:endingOfTheShortenURL', (req,res) => {
     URLs.find({endingOfTheShortenURL: req.params.endingOfTheShortenURL}, (error, result) => {
         if(error){
             console.log(error)
