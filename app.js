@@ -97,5 +97,5 @@ app.get('/no_such_URL', (req,res) => {
 
 ////監聽port
 app.listen(port,() => {
-    console.log(`App is running on port http://localhost:${port}`)
+    console.log(`App is running on port http://localhost:${port}`) //不重要,已經佈屬至Railway
 }) 
