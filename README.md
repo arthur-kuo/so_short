@@ -1,4 +1,4 @@
-# The URL Mage https://the-url-mage.up.railway.app/
+# The URL Mage https://tum.up.railway.app
 
 ![image](/images/demo.jpg)
 
